@@ -1,0 +1,25 @@
+__Name = "Deutsch"
+
+
+Parts
+{
+	HugeSensorArray = "riesige Sensorphalanx"
+	HugeSensorArrayIcon = "riesige Sensorphalanx"
+	HugeSensorArrayDesc = "riesige Sensorphalanx mit einer noch höheren Reichweite, allerdings deutlich teuerer im Betrieb"
+
+	LargeSensorArray = "große Sensorphalanx"
+	LargeSensorArrayIcon = "große Sensorphalanx"
+	LargeSensorArrayDesc = "große Sensorphalanx mit einer erhöhten Reichweite, allerdings teuerer im Betrieb"
+
+	SpaceStationSensorArray = "Sensorphalanx einer Raumstation"
+	SpaceStationSensorArrayIcon = "Sensorphalanx einer Raumstation"
+	SpaceStationSensorArrayDesc = "!!!!! mehr oder weniger unnötig, da die render Distanz vom Spiel zu niedrig ist. Die Schiffe/Asteroiden/Raumstation spawnen nicht in einem höheren Radius"
+
+	NextGenSensorArray = "Sensorphalanx der nächsten Generation"
+	NextGenSensorArrayIcon = "Sensorphalanx der nächsten Generation"
+	NextGenSensorArrayDesc = "!!!!! mehr oder weniger unnötig, da die render Distanz vom Spiel zu niedrig ist. Die Schiffe/Asteroiden/Raumstation spawnen nicht in einem höheren Radius"
+
+	ScoutSensorArray = "Drohnen Sensorphalanx"
+	ScoutSensorArrayIcon = "Drohnen Sensorphalanx"
+	ScoutSensorArrayDesc = "Sensorphalanx für kleine Drohnen. Kleinere Reichweite, aber günstiger im Betrieb"
+}

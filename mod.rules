@@ -1,0 +1,34 @@
+Name = "Better Sensor Arrays"
+ID = "soulblade.better_sensor_arrays"
+Version = v1.2.1
+CompatibleGameVersions = ["0.20.23"]
+ModifiesMultiplayer = true
+Author = "SoulBlade"
+Description = "Adds 5 better/other versions of the sensor array"
+
+Logo = "logo.png"
+Stringsfolder = strings
+
+Actions
+[
+	// add new sensor arrays
+	{ 
+		Action = AddMany
+		AddTo = "<ships/terran/terran.rules>/Terran/Parts"
+		ManyToAdd 
+		[ 
+			&<Parts/huge_sensor_array/huge_sensor_array.rules>/Part 
+			&<Parts/large_sensor_array/large_sensor_array.rules>/Part 
+			&<Parts/next_gen_sensor_array/next_gen_sensor_array.rules>/Part 
+			&<Parts/space_station_sensor_array/space_station_sensor_array.rules>/Part 
+			&<Parts/scout_sensor_array/scout_sensor_array.rules>/Part 
+		]
+	}
+
+	// add blueprint to shop
+	{
+		Action = AddMany
+		AddTo = "<modes/career/techs.rules>/Techs"
+		ManyToAdd = &<techs.rules>/Techs
+	}
+]

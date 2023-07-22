@@ -1,0 +1,53 @@
+Techs
+[
+	{
+		ID = soulblade.scout_sensor_array
+		NameKey = &<Parts/scout_sensor_array/scout_sensor_array.rules>/Part/NameKey
+		DescriptionKey = &<Parts/scout_sensor_array/scout_sensor_array.rules>/Part/DescriptionKey
+		Icon = &<Parts/scout_sensor_array/scout_sensor_array.rules>/Part/EditorIcon
+		EditorGroup = &<Parts/scout_sensor_array/scout_sensor_array.rules>/Part/EditorGroup
+		PartsUnlocked = [&<Parts/scout_sensor_array/scout_sensor_array.rules>/Part/ID]
+		Cost = 10000
+		Prerequisites = [cosmoteer.sensor_array]
+	}
+	{
+		ID = soulblade.large_sensor_array
+		NameKey = &<Parts/large_sensor_array/large_sensor_array.rules>/Part/NameKey
+		DescriptionKey = &<Parts/large_sensor_array/large_sensor_array.rules>/Part/DescriptionKey
+		Icon = &<Parts/large_sensor_array/large_sensor_array.rules>/Part/EditorIcon
+		EditorGroup = &<Parts/large_sensor_array/large_sensor_array.rules>/Part/EditorGroup
+		PartsUnlocked = [&<Parts/large_sensor_array/large_sensor_array.rules>/Part/ID]
+		Cost = 100000
+		Prerequisites = [cosmoteer.sensor_array]
+	}
+    {
+		ID = soulblade.huge_sensor_array
+		NameKey = &<Parts/huge_sensor_array/huge_sensor_array.rules>/Part/NameKey
+		DescriptionKey = &<Parts/huge_sensor_array/huge_sensor_array.rules>/Part/DescriptionKey
+		Icon = &<Parts/huge_sensor_array/huge_sensor_array.rules>/Part/EditorIcon
+		EditorGroup = &<Parts/huge_sensor_array/huge_sensor_array.rules>/Part/EditorGroup
+		PartsUnlocked = [&<Parts/huge_sensor_array/huge_sensor_array.rules>/Part/ID]
+		Cost = 1000000
+		Prerequisites = [soulblade.large_sensor_array]
+	}
+	{
+		ID = soulblade.space_station_sensor_array
+		NameKey = &<Parts/space_station_sensor_array/space_station_sensor_array.rules>/Part/NameKey
+		DescriptionKey = &<Parts/space_station_sensor_array/space_station_sensor_array.rules>/Part/DescriptionKey
+		Icon = &<Parts/space_station_sensor_array/space_station_sensor_array.rules>/Part/EditorIcon
+		EditorGroup = &<Parts/space_station_sensor_array/space_station_sensor_array.rules>/Part/EditorGroup
+		PartsUnlocked = [&<Parts/space_station_sensor_array/space_station_sensor_array.rules>/Part/ID]
+		Cost = 2000000
+		Prerequisites = [soulblade.huge_sensor_array]
+	}
+	{
+		ID = soulblade.next_gen_sensor_array
+		NameKey = &<Parts/next_gen_sensor_array/next_gen_sensor_array.rules>/Part/NameKey
+		DescriptionKey = &<Parts/next_gen_sensor_array/next_gen_sensor_array.rules>/Part/DescriptionKey
+		Icon = &<Parts/next_gen_sensor_array/next_gen_sensor_array.rules>/Part/EditorIcon
+		EditorGroup = &<Parts/next_gen_sensor_array/next_gen_sensor_array.rules>/Part/EditorGroup
+		PartsUnlocked = [&<Parts/next_gen_sensor_array/next_gen_sensor_array.rules>/Part/ID]
+		Cost = 5000000
+		Prerequisites = [soulblade.space_station_sensor_array]
+	}
+]

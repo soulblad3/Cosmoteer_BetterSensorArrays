@@ -1,0 +1,25 @@
+__Name = "English"
+
+
+Parts
+{
+	HugeSensorArray = "Huge Sensor Array"
+	HugeSensorArrayIcon = "Huge Sensor Array"
+	HugeSensorArrayDesc = "Huge Sensor Array with an even higher scan radius but also even more expensive in operation"
+
+	LargeSensorArray = "Large Sensor Array"
+	LargeSensorArrayIcon = "Large Sensor Array"
+	LargeSensorArrayDesc = "Large Sensor Array with higher scan radius but also more expensive in operation"
+
+	SpaceStationSensorArray = "Space Station Sensor Array"
+	SpaceStationSensorArrayIcon = "Space Station Sensor Array"
+	SpaceStationSensorArrayDesc = "!!!!! more or less uselees because of the low render distance of the game. The ships/asteroids/stations won't spawn in a higher radius"
+
+	NextGenSensorArray = "Next Gen Sensor Array"
+	NextGenSensorArrayIcon = "Next Gen Sensor Array"
+	NextGenSensorArrayDesc = "!!!!! more or less uselees because of the low render distance of the game. The ships/asteroids/stations won't spawn in a higher radius"
+
+	ScoutSensorArray = "Drone Sensor Array"
+	ScoutSensorArrayIcon = "Drone Sensor Array"
+	ScoutSensorArrayDesc = "Sensor Array for small drones. lower scan radius but cheaper in operation"
+}
